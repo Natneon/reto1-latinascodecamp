@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-0{
+     background-color: hsl(233, 47%, 7%);
+     width: 1400px;
+     height: 700px;
+     position: absolute;
+     margin:none;
+}
+
+.informacion {
+width: 575px;
+height: 410px;
+background-color: hsl(244, 38%, 16%);
+border-bottom-left-radius: 3%;
+border-top-left-radius: 3%;
+position:absolute;
+top: 16%;
+left:9%;
+}
+
+.texto-inf{
+     margin-top: 55px;
+     font-family:'Lexend Deca', sans-serif;
+     font-size: 34px;
+     color:hsl(0, 0%, 100%);
+     font-weight: 700;
+     text-align: center;
+}
+
+.hey{
+     color:rgb(219, 125, 219);
+}
+
+.texto-more{
+     margin-top:5px;
+     font-family:'Inter', sans-serif;
+     font-size: 13px;
+     color:hsla(0, 0%, 100%, 0.75);
+     font-weight: 400;
+     line-height: 1.7;
+     text-align: justify;
+     display: flex;
+     justify-content: center;
+
+}
+
+.contenedor-1{
+     margin-top: 35px;
+     display: grid;
+     grid-template-columns: 1% 1% 1%;
+     grid-template-rows: 25px 25px;
+     justify-content: space-evenly;
+     justify-items:center;
+     grid-row-gap: 8px;
+     grid-column-gap: 5px;
+
+}
+
+
+.texto-last-1{
+     font-family:'Lexend Deca', sans-serif;
+     font-size: 17px;
+     color:hsla(0, 0%, 100%, 0.75);
+     font-weight: 700;
+
+}
+
+.texto-last-2{
+     font-family:'Lexend Deca', sans-serif;
+     font-size: 17px;
+     color:hsla(0, 0%, 100%, 0.75);
+     font-weight: 700;
+}
+
+.texto-last-3{
+     font-family:'Lexend Deca', sans-serif;
+     font-size: 17px;
+     color:hsla(0, 0%, 100%, 0.75);
+     font-weight: 700;
+}
+
+
+
+.texto-last-4{
+     font-family:'Inter', sans-serif;
+     font-size: 11px;
+     color:hsla(0, 0%, 100%, 0.6);
+     font-weight: 400;
+}
+
+.texto-last-5{
+     font-family:'Inter', sans-serif;
+     font-size: 11px;
+     color:hsla(0, 0%, 100%, 0.6);
+     font-weight: 400;
+}
+.texto-last-6{
+     font-family:'Inter', sans-serif;
+     font-size: 11px;
+     color:hsla(0, 0%, 100%, 0.6);
+     font-weight: 400;
+}
+
+.foto{
+     width: 570px;
+     height: 410px;
+     background:hsl(277, 54%, 53%);
+     overflow: hidden;
+     border-bottom-right-radius: 3%;
+     border-top-right-radius: 3%;
+     position:absolute;
+     top: 16%;
+     right:9%;
+
+}
+
+
+img {
+     width: 575px;
+     height: 410px;
+     border-bottom-right-radius: 3%;
+     border-top-right-radius: 3%;
+     opacity: 0.45;
+}
